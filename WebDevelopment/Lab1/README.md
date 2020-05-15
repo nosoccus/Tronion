@@ -5,7 +5,7 @@
 
 ## Required pages and functionality:
 - Login page:
-  [requirement completed](https://github.com/nosoccus/Tronion/tree/master/client/templates/login/login.html)
+  --[requirement completed](https://github.com/nosoccus/Tronion/tree/master/client/templates/login/login.html)
   route (need to run project) [/login](http://127.0.0.1:5000/login)
   Screenshot of login:
   ![alt-текст](https://github.com/nosoccus/Tronion/tree/master/WebDevelopment/Lab1/img/login1.png "Login")
