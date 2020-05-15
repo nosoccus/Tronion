@@ -4,13 +4,14 @@
 > be used on the current stage. Student should show a teacher how SCSS is compiled to CSS.
 
 ## Required pages and functionality:
-- Login page:
+- #### Login page:
 
 [requirement completed](https://github.com/nosoccus/Tronion/tree/master/client/templates/login/login.html)
 
 route (need to run project) [/login](http://127.0.0.1:5000/login)
 
 Screenshot of login:
+<img width="964" alt="example" src="https://github.com/nosoccus/Tronion/tree/master/WebDevelopment/Lab1/img/login1.png">
 [alt-текст](https://github.com/nosoccus/Tronion/tree/master/WebDevelopment/Lab1/img/login1.png "Login")
   
   
@@ -45,7 +46,7 @@ Screenshot of profile:
 ![alt-текст](https://github.com/nosoccus/Tronion/tree/master/WebDevelopment/Lab1/img/profile.png "Profile")
   
   
-- Error notifications and validation errors:
+- #### Error notifications and validation errors:
 
 [requirement completed](https://github.com/nosoccus/Tronion/blob/master/client/static/scripts/login/login_request.js)
   
@@ -53,7 +54,7 @@ Screenshot of errors:
 [alt-текст](https://github.com/nosoccus/Tronion/tree/master/WebDevelopment/Lab1/img/error.png "Errors")
   
   
-- Information about selected user:
+- #### Information about selected user:
 
 [requirement completed](https://github.com/nosoccus/Tronion/blob/master/client/templates/room/manage_room.html)
 
