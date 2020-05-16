@@ -7,7 +7,7 @@
 
 - ### Pure JS, no jQuery or other libraries:
 
-   * [requirement completed](https://github.com/nosoccus/Tronion/tree/master/client/static/scripts)
+   * [[requirement completed]](https://github.com/nosoccus/Tronion/tree/master/client/static/scripts)
     ```javascript
     document.getElementById("join_button").onclick = function e() {
         e.preventDefault();
@@ -24,7 +24,7 @@
   
 - ### window.fetch or XMLHttpRequest can be used for AJAX calls:
 
-   * [requirement completed](https://github.com/nosoccus/Tronion/tree/master/client/static/scripts)
+   * [[requirement completed]](https://github.com/nosoccus/Tronion/tree/master/client/static/scripts)
 
    ```javascript
   $(document).on('submit', '#room-form', function (e) {
@@ -73,7 +73,7 @@
   
 - ### At least 3 API endpoints are used:
 
-   * [requirement completed](https://github.com/nosoccus/Tronion/blob/master/server/routes.py) (list of all endpoints, there are many 😉)
+   * [[requirement completed]](https://github.com/nosoccus/Tronion/blob/master/server/routes.py) (list of all endpoints, there are many 😉)
     ```python
    @app.route('/login')
     def login():
@@ -93,12 +93,12 @@
   
 - ### SPA shall communicate with back end via REST interface:
 
-   * [requirement completed](https://github.com/nosoccus/Tronion/blob/master/server/routes.py)
+   * [[requirement completed]](https://github.com/nosoccus/Tronion/blob/master/server/routes.py)
   
   
 - ### Data exchange shall be done in JSON format:
 
-   * [requirement completed](https://github.com/nosoccus/Tronion/blob/master/client/static/scripts/room/submit_request.js)
+   * [[requirement completed]](https://github.com/nosoccus/Tronion/blob/master/client/static/scripts/room/submit_request.js)
     ```javascript
     contentType: 'application/json; charset=UTF-8',
             data: JSON.stringify({
