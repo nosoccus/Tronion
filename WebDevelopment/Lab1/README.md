@@ -12,8 +12,7 @@
 route (need to run project) [/login](http://127.0.0.1:5000/login)
 
 _Screenshot of login:_
-<img width="964" alt="example" src="https://github.com/nosoccus/Tronion/tree/master/WebDevelopment/Lab1/img/login1.png">
-[alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/login1.png "Login")
+![alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/login1.png "Login")
   
   
 - #### Logout functionality:
@@ -23,7 +22,7 @@ _Screenshot of login:_
 route (need to run project) [/logout](http://127.0.0.1:5000/logout)
 
 _Screenshot of logout:_
-[alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/logout1.png "Logout")
+![alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/logout1.png "Logout")
   
   
 - #### “Create user dialog” with at least following fields: 
@@ -34,7 +33,7 @@ Username, Password, Confirm password, Role, buttons Ok, Cancel.
 route (need to run project) [/register](http://127.0.0.1:5000/register)
  
 _Screenshot of creating user:_
-[alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/signup1.png "Logout")
+![alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/signup1.png "Logout")
   
   
 - #### “Edit user” screen:
@@ -52,7 +51,7 @@ _Screenshot of profile:_
 [requirement completed](https://github.com/nosoccus/Tronion/blob/master/client/static/scripts/login/login_request.js)
   
 Screenshot of errors:
-[alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/error.png "Errors")
+![alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/error.png "Errors")
   
   
 - #### Information about selected user:
@@ -60,4 +59,4 @@ Screenshot of errors:
 [requirement completed](https://github.com/nosoccus/Tronion/blob/master/client/templates/room/manage_room.html)
 
 _Screenshot of users:_
-[alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/users.png "Users")
+![alt-текст](https://github.com/nosoccus/Tronion/raw/master/WebDevelopment/Lab1/img/users.png "Users")
