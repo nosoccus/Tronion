@@ -58,6 +58,6 @@ After this all you need is to do **make .env file** and place this text into it:
 > extended with variant specific functionality using static layouts from lab #1. As a result 
 > all features shall be implemented. Code shall meet requirements from lab #3.
 
-# 5. [Unit tests](https://github.com/nosoccus/Tronion/tree/master/WebDevelopment/Lab5)
+## 5. [Unit tests](https://github.com/nosoccus/Tronion/tree/master/WebDevelopment/Lab5)
 > During the lab students will learn and practice writing unit tests.
 > Cover the code with unit tests,use test coverage measuring tool.
