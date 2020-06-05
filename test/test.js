@@ -48,9 +48,49 @@ describe('Testing registration validation', function () {
 
 chai.use(chaiHttp);
 
+describe('Landing', function () {
+
+    it('OK', function (done) {
+        chai.request('localhost:5000')
+            .get('/')
+            .end(function (err, res) {
+                // res.should.have.status(200);
+                expect(res.status).to.equal(200);
+                done();
+            });
+    });
+});
+
+describe('API manage', function () {
+
+    it('return 200', function (done) {
+        chai.request('localhost:5000')
+            .get('/manage')
+            .end(function (err, res) {
+                // res.should.have.status(200);
+                expect(res.status).to.equal(200);
+                done();
+            });
+    });
+});
+
+describe('API profile', function () {
+
+    it('return 200', function (done) {
+        chai.request('localhost:5000')
+            .get('/profile')
+            .end(function (err, res) {
+                // res.should.have.status(200);
+                expect(res.status).to.equal(200);
+                done();
+            });
+    });
+
+});
+
 describe('API logout', function () {
 
-    it('Should return 200', function (done) {
+    it('return 200', function (done) {
         chai.request('localhost:5000')
             .get('/logout_user')
             .end(function (err, res) {
@@ -59,5 +99,4 @@ describe('API logout', function () {
                 done();
             });
     });
-
 });
