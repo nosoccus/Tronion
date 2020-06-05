@@ -72,13 +72,67 @@
       });
       ```
       
+      * Landing test:
+      ```javascript
+      chai.use(chaiHttp);
+
+      describe('Landing', function () {
+
+          it('OK', function (done) {
+              chai.request('localhost:5000')
+                  .get('/')
+                  .end(function (err, res) {
+                      // res.should.have.status(200);
+                      expect(res.status).to.equal(200);
+                      done();
+                    });
+          });
+      });
+      ```
+      
+      * Manage test:
+      ```javascript
+      chai.use(chaiHttp);
+
+      describe('API manage', function () {
+
+          it('return 200', function (done) {
+              chai.request('localhost:5000')
+                  .get('/manage')
+                  .end(function (err, res) {
+                      // res.should.have.status(200);
+                      expect(res.status).to.equal(200);
+                      done();
+                    });
+          });
+      });
+      ```
+      
+      * Profile test:
+      ```javascript
+      chai.use(chaiHttp);
+
+      describe('API profile', function () {
+
+          it('return 200', function (done) {
+              chai.request('localhost:5000')
+                  .get('/profile')
+                  .end(function (err, res) {
+                      // res.should.have.status(200);
+                      expect(res.status).to.equal(200);
+                      done();
+                    });
+          });
+      });
+      ```
+      
       * Logout test:
       ```javascript
       chai.use(chaiHttp);
 
       describe('API logout', function () {
 
-          it('Should return 200', function (done) {
+          it('return 200', function (done) {
               chai.request('localhost:5000')
                   .get('/logout_user')
                   .end(function (err, res) {
@@ -89,3 +143,8 @@
           });
       });
       ```
+      
+      
+- ### All tests passed:
+
+![alt-текст](https://github.com/nosoccus/Tronion/blob/master/WebDevelopment/Lab5/img/test.png "Result")
